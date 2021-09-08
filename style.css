@@ -1,0 +1,140 @@
+/* GLOBAL */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    padding: 1rem;
+    padding-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1250px;
+}
+
+/* UTILITY */
+
+.photo_layout{
+ width: 400px;
+   height: 600px; 
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+}
+
+.photo_desc{
+    position: absolute;
+    top: 100%;
+}
+
+.discount{
+    background-color: #EB0037;
+    display: inline;
+    padding: 7px;
+    color: white;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.desc_agg_not_alone{
+    background-color: #00875A;
+    display: inline;
+    padding: 7px;
+    color: white;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 56px;
+}
+
+/* MAIN */
+
+/* CONTAINER */
+
+#top{
+    height: 600px;
+    width: 1225px;
+}
+
+#bottom{
+  height: 600px;  
+  padding-top: 60px;
+    width: 1225px;
+}
+
+/* LAYOUT FOTO */
+
+.modello_1{
+     background-image: url(./img/1.webp);
+     float: left;
+     position: relative;
+}
+
+
+.modello_1:hover{
+    background-image: url(./img/1b.webp);
+}
+
+
+.modello_2{
+     background-image: url(./img/2.webp);
+     position: relative;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.modello_2:hover{
+    background-image: url(./img/2b.webp);
+}
+
+.modello_3{
+     background-image: url(./img/3.webp);
+     float: right;
+}
+
+.modello_3:hover{
+    background-image: url(./img/3b.webp);
+}
+
+.modello_4{
+     background-image: url(./img/4.webp);
+     float: left;
+}
+
+.modello_4:hover{
+    background-image: url(./img/4b.webp);
+}
+
+.modello_5{
+     background-image: url(./img/5.webp);
+     margin-left: 1%;
+    margin-right: 1%;
+}
+
+.modello_5:hover{
+    background-image: url(./img/5b.webp);
+}
+
+.modello_6{
+     background-image: url(./img/6.webp);
+     float: right;
+}
+
+.modello_6:hover{
+    background-image: url(./img/6b.webp);
+}
